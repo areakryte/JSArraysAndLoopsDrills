@@ -6,7 +6,7 @@
 function max(numbers) {
  // your code here
   if(numbers.length === 0)
-    return 0;
+    return null;
 
   var init = numbers[0];
 
@@ -25,7 +25,7 @@ function max(numbers) {
 function min(numbers) {
  // your code here
   if(numbers.length === 0)
-    return 0;
+    return null;
 
   var init = numbers[0];
 
@@ -36,7 +36,7 @@ function min(numbers) {
       init = numbers[i];
     }
   }
-  
+
   return init;
 }
 

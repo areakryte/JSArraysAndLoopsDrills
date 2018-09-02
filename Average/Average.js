@@ -3,6 +3,17 @@
 
 function average(numbers) {
   // your code goes here
+  if(numbers.length === 0)
+    return null;
+
+  var avg = 0;
+
+  for(var i = 0; i < numbers.length; i++)
+  {
+    avg = avg + numbers[i];
+  }
+
+  return avg/numbers.length;
 }
 
 
